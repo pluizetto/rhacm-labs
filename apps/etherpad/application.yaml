@@ -36,8 +36,4 @@ metadata:
     apps.open-cluster-management.io/github-path: resources/etherpad
 spec:
   channel: etherpad/etherpad-app-latest
-  placement:
-    placementRef:
-      kind: PlacementRule
-      name: dev-clusters
 
